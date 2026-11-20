@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica Matemática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lógica Matemática</h1>
+        <p>Aprendiendo lógica de una manera divertida</p>
+    </header>
+
+    <nav>
+        <a href="#temas">Temas</a>
+        <a href="#juego">Minijuego</a>
+    </nav>
+
+    <main>
+        <section id="temas">
+            <h2>Temas aprendidos durante el año</h2>
+
+            <article>
+                <h3>Conjuntos</h3>
+                <p>Un conjunto es una colección de elementos que tienen algo en común.</p>
+                <p>Ejemplo: A = {1, 2, 3, 4}</p>
+            </article>
+
+            <article>
+                <h3>Producto cartesiano</h3>
+                <p>Es la combinación de todos los elementos de un conjunto con los de otro.</p>
+                <p>Ejemplo: A × B = {(1, rojo), (1, azul), (2, rojo), (2, azul)}</p>
+            </article>
+
+            <article>
+                <h3>Relaciones y funciones</h3>
+                <p>Una relación conecta elementos de dos conjuntos. Una función asigna un único resultado a cada elemento de entrada.</p>
+                <p>Ejemplo: f(x) = 2x</p>
+            </article>
+
+            <article>
+                <h3>Leyes de De Morgan</h3>
+                <p>Permiten transformar expresiones lógicas aplicando la negación.</p>
+                <p>¬(A ∧ B) = ¬A ∨ ¬B</p>
+                <p>¬(A ∨ B) = ¬A ∧ ¬B</p>
+            </article>
+
+            <article>
+                <h3>Matrices</h3>
+                <p>Son estructuras de datos organizadas en filas y columnas.</p>
+            </article>
+        </section>
+
+        <section id="juego">
+            <h2>Minijuego: Verdadero o Falso</h2>
+            <p id="pregunta">Una función asigna un único resultado a cada entrada.</p>
+            <button onclick="responder(true)">Verdadero</button>
+            <button onclick="responder(false)">Falso</button>
+            <p id="resultado"></p>
+            <p id="puntos">Puntos: 0</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabajo Práctico Recuperatorio - Lógica Matemática</p>
+        <p>4.º año - IPETyM 246</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
